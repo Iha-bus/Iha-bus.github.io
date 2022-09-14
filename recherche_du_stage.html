@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>"Recherche du stage"</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="sebaoune Mohammed Ihab">
+    <meta name="keywords" content="ing1 Télécom,institut Galilée, projet web, sebaoune">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="stylerech.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header class="logo-container">
+        <div class="row">
+            <div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+                <img src="image/FONDATION587x240-BU.jpg" width="200" alt="logo Galilée" />
+                <img src="image/autsup.jpg" width="200" alt="logo USPN" />
+            </div>
+            <div class="col-md-5 col-lg-5 col-xs-12 col-sm-12"></div>
+            <div class="col-md-2 col-lg-2 col-xs-12 col-sm-12">
+                <h1 class="logo">SEBAOUNE Mohammed Ihab </h1>
+            </div>
+            <div class="col-md-1 col-lg-1 col-xs-12 col-sm-12">
+                <img src="image/photo (2).jpg" class="rounded-circle" style="width: 100%;" alt="photo de profil" />
+            </div>
+        </div>
+    </header>
+    <section id="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html"><b>Accueil</b>  </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="CV.html">CURRICULUM Vitae <span class="sr-only">(current)</span></a>
+                </li>
+               
+               
+                <li class="nav-item">
+                  <a class="nav-link " href="emoploi du temps.html">Emploi du temps</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+    </section>
+    <br>
+    <!--j'ai utilisé les formats des fichiers selon l'exemple que nous avons fait en TP-->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-lg-5 col-xs-12 col-sm-12">
+                    <p>La formation à Galilée m'a permetté d'acquérir des connaissances théoriques et des compétences pratiques diverses, afin d'obtenir mon diplôme et avant de pouvoir intégrer le monde professionnel autant qu'ingénieur en Télécommunications; il me faut faire un stage de 6 mois. Ce stage m'introduira au monde professionnel et peut aussi me permettre d'être embauché par la même entreprise si je mets en évidence mes capacités et mes qualités.je sais que c'est pas facile d'obtenir cette opportunité mais souvent l'orsque je sens que les porte se ferme devant moi ==>Voici la vidéo que jeregarde souvent pour me motiver pour continuer mon trajet, et par loccurence si vous trouvez que vous pouvez m'aider pour trouver un stage ou vous avez une piste, n'hésitez pas à me contacter.</p>
+                    <video controls>
+                        <source src="video/Video.flv" type="video/flv">
+                        <source src="video/Video.ogv" type="video/ogv">
+                        <source src="video/Video.mpeg" type="video/mpg">
+                        <source src="video/Video.mp4" type="video/mp4">
+                        <source src="video/Video.webm" type="video/webm">
+                    </video>
+                </div>
+                <div class=" col-md-2 col-lg-2 col-xs-12 col-sm-12"></div>
+                <div class=" recording col-md-5 col-lg-5 col-xs-12 col-sm-12">
+                    <p>As someone who loves traveling and wishes to discover the world, I wish that someday I would be able to work abroad. Arabic is my mother tongue, and I speak French and English fluently, if you come from an English-speaking country and you think that you can offer me an internship or help me find one, please listen to this recording to help you judge my language skills.</p>
+                    <audio controls>
+                        <source src="audio/Audio.mp3" type="audio/mp3">
+                        <source src="audio/Audio.m4a" type="audio/m4a">
+                        <source src="audio/Audio.aiff" type="audio/aiff">
+                        <source src="audio/Audio.ogg" type="audio/ogg">
+                        <source src="audio/Audio.wav" type="audio/wav">
+                        <source src="audio/Audio.wma" type="audio/wma">
+                    </audio>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <footer class="container-fluid footer">
+        <div class="row">
+            <div class=" col-md-1 col-lg-1 col-xs-0 col-sm-0"></div>
+            <div class="forme  col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <h3>Contacter moi</h3>
+                <form method="Post" action="verification.html">
+                    <label for="fname">Nom</label><br>
+                    <input type="text" id="fname" name="fname" class="inputs form-control" placeholder="Votre nom" required><br>
+                    <label for="lname">Prénom</label><br>
+                    <input type="text" id="lname" name="lname" class="inputs form-control" placeholder="Votre prénom" required><br>
+                    <label for="phone">Numéro de téléphone</label><br>
+                    <input type="tel" id="phone" name="phone" class="inputs form-control" placeholder="----------" required><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" class="inputs form-control" placeholder="Votre mail" required><br>
+                    <label>Message</label>
+                    <textarea name="message" style="width:100%; height:100px;" placeholder="Votre message" required></textarea><br>
+                    <input type="file" id="myfile" name="myfile" class="inputs form-control">
+                    <br><input type="submit" class="btn btn-info" value="Vérifier">
+                    <input type="reset" class="btn btn-warning" value="Réinitialiser"><br><br>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <br>
+
+    <section id="footer">
+		<div class="footer containerf">
+		<div class="brand"><h1><span>S</span>EBAOUNE <span>m</span>ohammed <span>i</span>hab</h1></div>
+		<h2>Complete Web Solution</h2>
+		<div class="social-icon">
+			<div class="social-item">
+			<a href="https://www.facebook.com/hab.chicho.7/"><img src="./image/icons8-facebook-100.png"/></a>
+			</div>
+			<div class="social-item">
+			<a href="https://www.instagram.com/ih_ab_us/?hl=fr"><img src="./image/icons8-instagram.gif"/></a>
+			</div>
+			<div class="social-item">
+			<a href="https://www.linkedin.com/in/ihab-seb-51155b18b/"><img src="./image/icons8-linkedin-100.png"/></a>
+			</div>
+		</div>
+		<p>Copyright © 2021 SEBAOUNE. All rights reserved</p>
+		</div>
+		</section>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>"verification"</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="SEBAOUNE">
+    <meta name="keywords" content="ing1 Télécom,institut Galilée, projet web">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styleverif.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="verif col-md-12 col-lg-12 col-xs-12 col-sm-12">
+                    <h1>Vérification</h1>
+                    <p>Vos données et votre message ont bien été enregistrés, voulez vous les envoyer?</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#verifi">
+                        Envoyer
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="verifi">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Message envoyé</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    Merci de m'avoir contacté, votre message sera traité dans un bref délai.
+                </div>
+                <div class="modal-footer">
+                    <form>
+                        <input type="button" class="btn btn-success" value="Retour" onclick="history.back()">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

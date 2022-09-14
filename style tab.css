@@ -1,0 +1,101 @@
+body {
+    background-image: url(./image/haulle.jpg);
+    background-size: cover;
+	background-position: top-center;
+	position: relative;
+	z-index: -1;
+    opacity: 1;
+}
+body ::after{
+	content:"";
+	position:absolute;
+	left:0;
+	top:0;
+	height:50%;
+	width :100%;
+	background-color:green;
+	opacity:0.05;
+	z-index:-1;
+	}
+p {
+    color:black;
+	font-size:1.4rem;
+	margin-top:5px;
+	line-height:2.5rem;
+	font-weight:300;
+	letter-spacing:.05rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 1.3rem;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Tahoma,sans-serif;
+}
+
+table, td {
+    border: 1px solid black;
+}
+
+td {
+    padding: 0 3px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.forme {
+    background-color: rgb(245, 245, 245);
+    align-self: center;
+    border-radius: 10px;
+}
+
+.inputs {
+    background-color: white;
+}
+
+.logo-container {
+    display: flex;
+    background-color: black;
+}
+
+.logo {
+    color: rgb(173, 173, 173);
+    font-style: italic;
+    display: flex;
+    margin-left: 20px;
+}
+
+.moi {
+    color: black;
+}
+
+.topright {
+    display: none;
+}
+
+.hj {
+    background-color: rgb(111, 174, 233);
+}
+
+
+
+.eln {
+    background-color: rgb(240, 109, 109);
+}
+
+.projet {
+    background-color: rgb(63, 184, 69);
+}
+
+.case {
+    background-color: rgb(94, 141, 185);
+}
+
+.vide {
+    background-color: white;
+}
